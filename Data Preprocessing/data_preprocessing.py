@@ -33,5 +33,5 @@ x_test=sc_x.transform(x_test)
 #We dont have to do it for y because we only have 1 and 0 and not a range of values
 
 
-print pd.DataFrame(x)
-print pd.DataFrame(y)
+print (pd.DataFrame(x))
+print (pd.DataFrame(y))
